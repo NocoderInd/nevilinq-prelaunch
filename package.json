@@ -1,0 +1,19 @@
+{
+  "name": "nevilinq",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:www": "npm --workspace apps/www run dev",
+    "dev:admin": "npm --workspace apps/admin run dev",
+    "dev": "concurrently -k -n WWW,ADMIN \"npm:dev:www\" \"npm:dev:admin\"",
+    "build": "npm -ws run build",
+    "lint": "npm -ws run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "concurrently": "^8.2.2"
+  }
+}
