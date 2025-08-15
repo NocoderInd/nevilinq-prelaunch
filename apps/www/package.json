@@ -1,7 +1,4 @@
 {
-  "name": "@nevi/www",
-  "private": true,
-  "version": "0.0.1",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
