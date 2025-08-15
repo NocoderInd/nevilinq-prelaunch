@@ -1,0 +1,31 @@
+{
+  "name": "@nevi/www",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.539.0",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.13.0",
+    "@types/react": "19.1.10",
+    "@types/recharts": "^1.8.29",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.2"
+  }
+}
